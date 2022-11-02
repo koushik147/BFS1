@@ -1,3 +1,5 @@
+#TimeComplexity: O(n)
+#SpaceComplexity: O(n)
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         q = deque() # creating queue
