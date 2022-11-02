@@ -1,3 +1,5 @@
+#TimeComplexity: O(n)
+#SpaceComplexity: O(n)
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         if root==None:  #  if no root node
